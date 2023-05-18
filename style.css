@@ -1,0 +1,57 @@
+
+    
+.body {
+    background-color: rgba(219, 253, 253, 0.658);
+}
+
+
+
+.testimonials {
+    max-width: 1140px;
+    margin: 100px auto;
+    padding: 20px;
+    display: grid;
+
+    display: grid;
+    grid-template-columns:repeat(5, 1fr)
+}
+
+.card {
+    background-color: rgb(216, 213, 213);
+    padding:10px;
+    margin-bottom: 10px;
+    
+    border-radius: 1.5rem;
+   
+    
+}
+
+.bg--purple{
+    background-color: purple;
+  
+}
+.bg--blue{
+    background-color: rgb(58, 22, 185);
+}
+.bg--green{
+    background-color: rgb(5, 167, 19);
+}
+.bg--orange{
+    background-color: rgb(109, 3, 38);
+}
+
+
+.card__header {
+    
+    font-family: italic;
+    
+
+}
+
+.card__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+
